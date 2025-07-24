@@ -119,11 +119,12 @@ const ContactUs = () => {
     };
 
     return (
-        <div className="contact-us">
-            <nav className="navbar">
-                <ul>
-                    <li>
-                        <img id='image-logo' src="/CoLab-Hakaton-SigSolar/src/assets/logo.png" alt="Logo" />
+        <>
+            <div className="contact-us">
+                <nav className="navbar">
+                    <ul>
+                        <li>
+                            <img id='image-logo' src="/CoLab-Hakaton-SigSolar/src/assets/logo.png" alt="Logo" />
                     </li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Sazinies ar mums</a></li>
@@ -286,6 +287,7 @@ const ContactUs = () => {
                 </div>
             </footer>
         </div>
+    </>
     );
 };
 
