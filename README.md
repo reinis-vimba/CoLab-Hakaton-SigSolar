@@ -9,3 +9,4 @@ Tehcnologies used:
 - Vite
 - React
 - ChatBase
+- Tailwind CSS
